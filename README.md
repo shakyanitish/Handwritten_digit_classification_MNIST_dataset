@@ -24,31 +24,24 @@ The model achieves **~97.5% accuracy** on the test set.
 🛠️ Technologies Used
 
 Python 3
-
 TensorFlow / Keras
-
 Matplotlib (for visualization)
-
 scikit-learn (for accuracy score)
 
-raining
+
+🚀 Training
 
 Optimizer: Adam
-
 Loss function: Sparse Categorical Crossentropy
-
 Metric: Accuracy
-
 Epochs: 10
-
 Validation split: 20%
+
 
 Training results:
 
 Final Train Accuracy: ~99.4%
-
 Final Validation Accuracy: ~97.3%
-
 Test Accuracy: 97.56%
 - **Test set:** 10,000 images
 - Each image: 28×28 pixels, grayscale
